@@ -2,14 +2,14 @@
 DBConnections:
  - DBConnection:
     - Server:
-        Name: server1
-        Username: user1
-        Password: password1
+      - Name: server1
+      - Username: user1
+      - Password: password1
         UseSqlSecurity: false
  - DBConnection:
     - Server:
-        Name: server2
-        Username: user2
-        Password: password2
-        UseSqlSecurity: true
+      - Name: server2
+      - Username: user2
+      - Password: password2
+      - UseSqlSecurity: true
    
